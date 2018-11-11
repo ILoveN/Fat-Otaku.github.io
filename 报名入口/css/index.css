@@ -1,0 +1,87 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../img/bg.png") no-repeat 0 0/cover;
+}
+#container{
+    position: relative;
+    width: 500px;
+
+    padding: 35px 35px 10px 35px;
+    height: 330px;
+    margin: 200px auto;
+    background-color: rgba(131,193,235,.5);
+    border: 1px solid #6dc7ef;
+}
+label{
+    display: inline-block;
+    width: 50px;
+    margin-right: 5px;
+    text-align: right;
+}
+input{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-indent: 1em;
+    margin-bottom: 20px;
+}
+#container form >  div{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: center;
+}
+#container form >  div p{
+    margin-left: -25px;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.pic img{
+    width: 80px;
+    height: 80px;
+}
+select{
+    width: 180px;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    margin-right: 25px;
+    outline: none;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    resize: none;
+    margin: 15px 0;
+}
+button{
+    width: 80px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #54a9f3;
+    border: none;
+    margin-left: 210px;
+}
